@@ -6,7 +6,7 @@ int main(){
     cout << "see just " << x  << endl;
     char c;
     cin >> c;
-    int ascii = c;
-    cout << ascii <<endl;
+    // int ascii = c;
+    cout << (int)c <<endl;
     return 0;
 }
